@@ -23,8 +23,9 @@ h3 {
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
-  color:#000;
+  color: #000;
 }
+
 /* title */
 #title {
   background-color: #ff4c68;
@@ -33,7 +34,6 @@ h3 {
 
 .container-fluid {
   padding: 3% 15% 17%;
-
 }
 
 .navbar {
@@ -66,9 +66,8 @@ h3 {
 .title-pic {
   width: 60%;
   transform: rotate(25deg);
-  position:absolute;
-  right:20%;
-
+  position: absolute;
+  right: 20%;
 }
 
 /* Features id */
@@ -77,8 +76,6 @@ h3 {
   color: black;
   margin: 0 auto;
   position: relative;
-
-
 }
 
 /* feature images */
@@ -92,7 +89,6 @@ h3 {
 /* hover state features icons */
 .features-image:hover {
   color: #ff4c68;
-
 }
 
 /* paragraph features */
@@ -117,77 +113,77 @@ h3 {
 .testimonial-image {
   border-radius: 100%;
   width: 8%;
-  margin:20px;
+  margin: 20px;
 }
 
 /* Press Section */
-#press{
-background-color: #ef8172;
-text-align: center;
-padding:5%;
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 5%;
 }
 
 /* press logo */
-.press-logo{
+.press-logo {
   width: 10%;
-  margin:20px 20px;
+  margin: 20px 20px;
 }
 
 /* pricing */
-#pricing{
+#pricing {
   text-align: center;
   color: #8f8f8f;
   padding: 100px;
 }
 
-.pricing-header{
-  color:#000;
+.pricing-header {
+  color: #000;
   text-align: center;
-  font-style: "Montserrat",sans-serif;
+  font-style: "Montserrat", sans-serif;
   font-weight: 900rem;
 }
 
-.price-table{
+.price-table {
   padding: 3% 2%;
 }
 
 /* media queries */
 @media (max-width:1000px) {
-  .container-fluid{
+  .container-fluid {
     text-align: center;
   }
-  .title-pic{
+
+  .title-pic {
     position: static;
     transform: rotate(0);
   }
 }
 
 /* call to action section */
-#cta{
+#cta {
   background-color: #ff4c68;
   text-align: center;
   padding: 5% 20%;
 }
 
 /* cta header */
-.cta-header{
-  font-style: "Montserrat",sans-serif;
+.cta-header {
+  font-style: "Montserrat", sans-serif;
   font-size: 4rem;
   font-weight: 900;
-    line-height: 1.2;
-    color: #fff;
+  line-height: 1.2;
+  color: #fff;
 }
 
 /* footer */
-footer{
-  font-style: "Ubuntu",sans-serif;
+footer {
+  font-style: "Ubuntu", sans-serif;
   background-color: #fff;
   text-align: center;
-
 }
 
 /* footer icons */
-.social-icon{
-text-align: center;
-margin: 5% 1% 1% 0;
+.social-icon {
+  text-align: center;
+  margin: 5% 1% 1% 0;
 }
